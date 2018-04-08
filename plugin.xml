@@ -49,7 +49,7 @@
             <activity android:name="com.testfairy.activities.ProvideFeedbackActivity" android:configChanges="orientation|screenSize" />
             <activity android:name="com.testfairy.activities.AutoUpdateActivity" android:configChanges="orientation|screenSize" />
         </config-file>
-        <config-file target="config.xml" parent="/widget">
+        <config-file target="res/xml/config.xml" parent="/*">
             <feature name="TestFairy">
                 <param name="android-package" value="com.testfairy.CDVTestFairy" />
             </feature>
